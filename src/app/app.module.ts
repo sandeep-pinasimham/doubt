@@ -20,6 +20,8 @@ import { MatListModule } from '@angular/material/list';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { SharedRoutingModule } from './shared/shared-routing.module';
 import { ListComponent } from './list/list.component';
+import { RequestListComponent } from './shared/components/request-list/request-list.component';
+import { CardComponent } from './shared/components/card/card.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,6 +41,8 @@ import { ListComponent } from './list/list.component';
     MatIconModule,
     SharedRoutingModule,
     MatListModule,
+    // RequestListComponent,
+    // CardComponent,
     BrowserAnimationsModule,
   ],
 
